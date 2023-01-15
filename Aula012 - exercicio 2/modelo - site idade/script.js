@@ -3,7 +3,7 @@ function verificar(){
    var ano = data.getFullYear()
    var fano = document.getElementById("txtano")
    var res = document.querySelector("div#res")
-   var pasta = '/curso em vídeo - Javascript/Aula012 - exercicio 2/imagens de pessoas/'
+   var pasta = '/Aula012 - exercicio 2/imagens de pessoas/'
                
 
    if (fano.value.length == 0 || fano.value > ano || fano.value == 0) {
